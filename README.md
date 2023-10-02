@@ -1,7 +1,7 @@
 # StudySync
 A trainee support system
 
-Het vergroten van de zichtbaarheid van de presentaties van een grote groep studenten die stage lopen en elk een eigen leerpad hebben, kan een uitdagende taak zijn. Hier zijn enkele strategieën die je kunt overwegen om de zichtbaarheid te vergroten:
+Het vergroten van de zichtbaarheid van de prestaties van een grote groep studenten die stage lopen en elk een eigen leerpad hebben, kan een uitdagende taak zijn. Hier zijn enkele strategieën die je kunt overwegen om de zichtbaarheid te vergroten:
 
 1. Online platform voor delen en presenteren:
     * Maak gebruik van een online platform zoals een leerbeheersysteem (LMS), een website of een platform voor het delen van presentaties (bijvoorbeeld SlideShare of Google Slides) waar studenten hun presentaties kunnen uploaden of delen.
