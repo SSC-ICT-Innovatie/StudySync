@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    {% if error %}
+        <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+    {% endif %}
+<form action="{{ path('login') }}" method="post">
+    <section class="vh-100" style="background-color: #E9E9E9;">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                        <div class="card-body p-5 text-center">
+
+                            <h3 class="mb-5">Login</h3>
+
+                            <div class="form-outline mb-4">
+                                <input type="text" id="username" class="form-control form-control-lg" name="_username" placeholder="Username" value="{{ last_username }}"/>
+                                <label class="form-label" for="username"></label>
+                            </div>
+
+                            <div class="form-outline mb-4">
+                                <input type="password" id="password" name="_password" class="form-control form-control-lg " placeholder="Password" />
+                                <label class="form-label" for="password"></label>
+                            </div>
+                            <input type="hidden" name="_target_path" value="/redirect"/>
+                            <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</form>
+    <form action="{{ path('login') }}" method="post">
+        <label for="username"> Email:</label>
+        <input type="text" id="username" name="_username" value="{{ last_username }}"/>
+        <label for="password"> password:</label>
+        <input type="password" id="password" name="_password"/>
+
+        <input type="hidden" name="_target_path" value="/redirect"/>
+        <button type="submit"> login</button>
+
+{% endblock %}
