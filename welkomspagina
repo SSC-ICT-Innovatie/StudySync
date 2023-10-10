@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welkom bij het Stageportaal</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="welkomspagina.html">Welkom</a></li>
+    <li><a href="registreet.html">Registreren</a></li>
+    <li><a href="login.html">Inloggen</a></li>
+  </ul>
+</nav>
+<header>
+  <h1>Welkom bij het Stageportaal</h1>
+
+</header>
+<div class="container">
+  <p>Welkom bij het Stageportaal van de Rijksoverheid. Hier kunnen studenten hun stageopdrachten beheren en informatie vinden over hun stageprogramma.</p>
+  <p>Log in op uw account om aan de slag te gaan of <a href="registreet.html">registreer hier</a> als u nieuw bent.</p>
+</div>
+</body>
+</html>
