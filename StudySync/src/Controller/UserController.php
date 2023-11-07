@@ -15,4 +15,22 @@ class UserController extends AbstractController
             'controller_name' => 'UserController',
         ]);
     }
+
+    #[Route('/overons', name: 'app_overons')]
+    public function overons(): Response
+    {
+        return $this->render('user/overons.html.twig', [
+            'controller_name' => 'UserController',
+        ]);
+    }
+
+    #[Route('/projecten', name: 'app_projecten')]
+    public function projecten(): Response
+    {
+        return $this->render('user/project.html.twig', [
+            'controller_name' => 'UserController',
+        ]);
+    }
+
 }
+
