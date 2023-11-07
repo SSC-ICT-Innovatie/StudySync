@@ -16,7 +16,7 @@ class UserController extends AbstractController
         ]);
     }
 
-    #[Route('/overons', name: 'app_overons')]
+    #[Route('/overons', name: 'overons')]
     public function overons(): Response
     {
         return $this->render('user/overons.html.twig', [
@@ -24,7 +24,7 @@ class UserController extends AbstractController
         ]);
     }
 
-    #[Route('/projecten', name: 'app_projecten')]
+    #[Route('/projecten', name: 'project')]
     public function projecten(): Response
     {
         return $this->render('user/project.html.twig', [
